@@ -1,0 +1,22 @@
+.commentForm {
+  &:focus-within {
+    footer {
+      visibility: visible;
+      max-height: none;
+    }
+  }
+  footer {
+    visibility: hidden;
+    max-height: 0;
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.7;
+    }
+  }
+}
+.profile_pic {
+  height: 3.75rem;
+
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
